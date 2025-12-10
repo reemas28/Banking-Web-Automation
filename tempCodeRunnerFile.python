@@ -1,0 +1,5 @@
+import requests
+
+response = requests.get("https://dummyjson.com/c/66a2-822a-4d31-9843")
+
+data = response.json()
